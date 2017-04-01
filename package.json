@@ -4,15 +4,15 @@
   "description": "webrtc-web",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-    , "start": "node index.js"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "wamp-server": "0.0.6"
+    "wamp.rt": "^0.2.0"
   },
   "dependencies": {
-    "wamp-server": "0.0.6"
+    "wamp.rt": "^0.2.0"
   }
 }
