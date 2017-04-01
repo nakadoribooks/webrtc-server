@@ -13,5 +13,10 @@
     "autobahn": "^0.12.0",
     "nodedev": "0.0.1",
     "wamp-server": "0.0.6"
+  },
+  "dependencies": {
+    "autobahn": "^0.12.0",
+    "nodedev": "0.0.1",
+    "wamp-server": "0.0.6"
   }
 }
