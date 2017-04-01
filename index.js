@@ -12,7 +12,7 @@ var Router = require('wamp.rt');
 var program = require('commander');
 
 program
-    .option('-p, --port <port>', 'Server IP port', parseInt,8000);
+    .option('-p, --port <port>', 'Server IP port', parseInt,process.env.PORT || 8000);
 
 //
 // WebSocket server
